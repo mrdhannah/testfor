@@ -1,0 +1,332 @@
+* {
+  outline: none !important;
+}
+* {
+  font-family: 'IranSans';
+}
+* {
+  outline: none !important;
+}
+.Header {
+  width: 100%;
+  min-height: calc(70px - 2 * 20px);
+  direction: rtl;
+  padding: 20px 0;
+  background-color: white;
+  border-top: solid 2px #00ef74;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 12;
+}
+.Header .Section-right {
+  display: inline-flex;
+  position: absolute;
+  right: 8%;
+}
+.Header .Logo{
+  height: 100%;
+  cursor: pointer;
+}
+.Header .Logo img {
+  height: calc(70px - 2 * 20px);
+}
+.Header .Menu-Items {
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  background-color: white;
+  padding-right: 8%;
+  padding-left: 8%;
+  z-index: 4;
+  margin: 0;
+  position: relative;
+  top: 64px;
+  transition: height 450ms ease-in-out, padding-top 450ms ease-in-out;
+}
+.Header .Menu-Items ul {
+  width: 100%;
+  list-style-type: none;
+  margin-right: 0;
+}
+.Header .Menu-Items ul li {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-weight: bolder;
+}
+.Header .Menu-Items ul li a {
+  color: #414141;
+}
+.Header .DownloadButton {
+  position: absolute;
+  left: 8%;
+  background-color: #00d170;
+}
+.Header .DownloadButton * {
+  color: #EEE !important;
+}
+.Header .DownloadButton:hover {
+  background-color: #00b36e;
+}
+.DownloadButton {
+  display: inline-flex;
+  padding: 7px 15px;
+  min-height: 30px;
+  min-width: 4rem;
+  overflow: hidden;
+  line-height: 2;
+  text-align: center;
+  font-weight: 800;
+  border: 0;
+  border-radius: 2rem;
+  vertical-align: middle;
+  white-space: nowrap;
+  cursor: pointer;
+  touch-action: manipulation;
+  user-select: none;
+  color: #EEE;
+  text-decoration: none;
+  transition: all 450ms ease-in-out;
+  margin-top: -6px;
+  direction: rtl;
+  text-align: center;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+.DownloadButton div {
+  font-size: 16px;
+  height: 30px;
+  line-height: 30px;
+  vertical-align: middle;
+  margin-right: 8px;
+  font-weight: bold;
+}
+.Header .Options ul {
+  margin: auto auto auto auto !important;
+  height: calc(70px - 2 * 20px);
+  vertical-align: middle;
+  display: inline-flex;
+  justify-content: space-between;
+  list-style: none !important;
+}
+.Header .Options ul li a {
+  display: inline-flex;
+  white-space: nowrap;
+  line-height: calc(70px - 2 * 20px);
+  height: calc(70px - 2 * 20px);
+  vertical-align: middle;
+  font-size: 14px;
+  margin: 0 10px;
+  font-weight: bold;
+  color: #151f33;
+  user-select: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+.Header .Options ul li a:hover {
+  color: #00b36e;
+}
+.Header .Options ul li a:hover * {
+  color: #00b36e;
+}
+
+body {
+  line-height: 1;
+}
+.Big-Aqua-Header-H1 {
+  font-size: 50px;
+  color: #2fc188;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  direction: rtl;
+  line-height: 1;
+  text-align: right;
+  width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+  font-style: normal;
+}
+.Big-Aqua-Header-H4 {
+  font-size: 35px;
+  color: #00b36e;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  direction: rtl;
+  line-height: 1;
+  text-align: right;
+  width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.Big-Black-Header-H6 {
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 45px;
+  margin-top: 35px;
+  direction: rtl;
+  text-align: right;
+  width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.Inner-List li {
+  list-style: circle;
+  line-height: 28px;
+  direction: rtl;
+  width: 400px;
+  text-align: right;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 20px;
+}
+.Inner-List {
+  color: #5d5e5e;
+  font-size: 18px;
+  direction: rtl;
+  width: 100%;
+}
+.Div {
+  direction: rtl;
+}
+.Normal-Paragraph {
+  font-size: 18px;
+  font-size: 28px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 36px;
+  vertical-align: baseline;
+  direction: rtl;
+  text-align: right;
+  width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.Footer {
+    width: 90%;
+    max-width: 100vw;
+    background-color: #151f33;
+    text-align: center;
+    min-height: 170px;
+    padding: 32px 5% 0 5%;
+}
+.Footer .Links {
+  width: 100%;
+  direction: rtl;
+}
+.Footer .Links .Item {
+  font-size: 18px;
+  margin: 0 10px;
+  line-height: 28px;
+  display: inline-block;
+  white-space: nowrap;
+  color: #EEE;
+  user-select: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+.Footer .Links .Item:hover {
+  color: #00b36e;
+}
+.Footer .Links .Item:hover * {
+  color: #00b36e;
+}
+.Footer .Links .Item * {
+  transition: all 450ms ease-in-out;
+  color: #EEE;
+}
+.Footer .Links .Active {
+  color: #00ef74;
+}
+.Footer .Copyright {
+  width: 100%;
+  color: #EEE;
+  font-size: 18px;
+  margin-top: 20px;
+  line-height: 28px;
+  direction: rtl;
+}
+.Footer .Social-Links {
+  margin-top: 20px;
+  width: 100%;
+  direction: ltr;
+}
+.Footer .Social-Links span {
+  margin: 0 10px;
+}
+.Footer .Social-Links span a i {
+  color: #EEE;
+  user-select: none;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+}
+.Footer .Social-Links span a i * {
+  transition: all 450ms ease-in-out;
+  color: #EEE;
+}
+.Footer .Social-Links span a i:hover {
+  color: #00b36e;
+}
+.Footer .Social-Links span a i:hover * {
+  color: #00b36e;
+}
+.Footer .Organs {
+  margin-top: 20px;
+}
+.Footer .Organs img {
+  cursor: pointer;
+}
+h1 {
+  font-size: 30px !important;
+  line-height: 40px !important;
+}
+h5 {
+  font-size: 25px !important;
+  line-height: 34px !important;
+}
+.Link {
+  color: #151f33;
+  user-select: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+.Link:hover {
+  color: #00b36e;
+}
+.Link:hover * {
+  color: #00b36e;
+}
+.Link * {
+  transition: all 450ms ease-in-out;
+  color: #151f33;
+}
+.english {
+  text-align: left;
+  direction: ltr;
+}
+.Banner {
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.Main-Content {
+  margin: auto;
+  min-height: calc(100vh - 170px - 32px * 2 - calc(70px - 2 * 20px) - 20px * 2 + 30px);
+  width: 46%;
+  direction: rtl;
+}
+@font-face {
+  font-family: 'IranSans';
+  src: url('./Desktop/webfontkit-20191004-081141/iransans-webfont.woff') format('woff');
+  font-family: 'IranSans';
+  src: url('./Desktop/webfontkit-20191004-081141/iransans-webfont.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'IranSansBold';
+  src: url('https://www.fontsquirrel.com') format('woff');
+  font-family: 'IranSans';
+  src: url('https://www.fontsquirrel.com') format('woff2');
+  font-style: normal;
+  font-weight: 800;
+}
+
